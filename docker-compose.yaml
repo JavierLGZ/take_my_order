@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  orderapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: orderapi
+    container_name: orderapi
+    restart: unless-stopped
+    ports:
+      - '8000:8000'
