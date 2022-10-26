@@ -8,7 +8,7 @@ class OrderSerializer(serializers.ModelSerializer):
         model = Orders
         fields = (
             'pickup_lat', 'pickup_lng',
-            'delivery_lat', 'delivery_lng', 'delivery_time',
+            'delivery_lat', 'delivery_lng', 'delivery_init_time',
         )
 
 class OrderSerializerAll(serializers.ModelSerializer):
@@ -16,6 +16,6 @@ class OrderSerializerAll(serializers.ModelSerializer):
     class Meta:
         model = Orders
         fields = (
-            'pickup_lat', 'pickup_lng',
-            'delivery_lat', 'delivery_lng', 'delivery_time',
+            'id', 'driver', 'pickup_lat', 'pickup_lng',
+            'delivery_lat', 'delivery_lng', 'delivery_init_time',
         )
