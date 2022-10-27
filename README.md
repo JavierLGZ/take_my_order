@@ -1,7 +1,7 @@
 # Take my order
 
 Take my order es una API que empareja clientes con repartidores.
-El objetivo el que al das las cooordenadas de recojida y de entrega la api te empareje con el repartidor mas cercano disponble.
+El objetivo es que dadas las coordenadas de recogida y de entrega la api te empareje con el repartidor más cercano disponible.
 
 ## Instrucciones
 
@@ -9,5 +9,5 @@ En la carpeta raíz se encuentran los archivos Dockerfile y docker-compose.yml. 
 
 > NOTA: Docker compose ya está preinstalado con Docker desktop para Windows, en Linux debe ser instalado por aparte
 
-una vez ejecutado podemos dirigirnos a la dirección [localhost:8000/order](http://localhost:8000/order/) para poder interactuar con la API.
-en la dirección [localhost:8000/swagger](http://localhost:8000/swagger/) podemos encontrar información más detallada de la API sobre los métodos disponibles y los parámetros necesarios la respuesta satisfactoria de la API.
+Una vez ejecutado podemos dirigirnos a la dirección [localhost:8000/order](http://localhost:8000/order/) para poder interactuar con la API.
+En la dirección [localhost:8000/swagger](http://localhost:8000/swagger/) podemos encontrar información más detallada de la API sobre los métodos disponibles y los parámetros necesarios para la respuesta satisfactoria de la API.
